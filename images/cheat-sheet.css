@@ -1,0 +1,20 @@
+/*cheat-sheet.css*/
+
+/*body is selector to change the style of the body section on an HTML file */
+body{
+	background-color:pink; /*bacground is a property to change the background color and gold is the property value */ 
+/* there are 140 color names 
+https://www.w3schools/com/colors/colors_names.com **/ 
+}
+
+/* heading is a class selector that can be applied to several elements on my html page */ 
+.heading {
+	color:white;
+}
+
+/* my_paragraph is an id selector that has styling that applies only to one tag id should be the same as the this selector */
+#my_paragraph {
+	text-align: right;
+	text-decoration: underline;
+	font-weight: bold;
+}

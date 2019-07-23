@@ -1,0 +1,117 @@
+<!--cheat-sheet.html -->
+<!-- HTML Shell: html, head, body -->
+<!DOCTYPE hmtl> <!-- DOCTYPE is to let the browser knoow that we are using html -->
+<html><!-- start of html document --> 
+<head><!-- configuration: configuration --> 
+	<title>cheat sheet</title> <!--title on the browser's tab: goes inside head section --> 
+	<link rel="stylesheet" type="text/css" href="cheat-sheet.css"> <!-- link brings all css styling from my css file into my html file --> 
+	<!-- style tag is to add internal style --> 
+	<style type= "type/css">
+	  /* marigin properties in pixels */ 
+	   div{
+	   	margin-top: 100px;
+	   	margin-right: 150px;
+	   	margin-bottom: 50px
+	   	margin-left: 200px;
+	   	background-color: white;
+	   	border-style: dotted;
+	   	border-width:5px;
+     }
+</style> 
+</head><!-- ending of head secton --> 
+<body><!-- start of body section: visible section of the page -->
+<h1 class="heading"> Heading 1 </h1>
+<h2 class="heading"> Heading 2 </h2>
+<h3 class="heading"> Heading 3 </h3>
+<h4 class="heading"> Heading 4 </h4> 
+<h5 class="heading"> Heading 5 </h5>
+<h6 class="heading"> Heading 6 </h6>
+<!-- paragraph -->
+<p id="my_paragraph"> This is a paragraph. Because I have no imagination I'll keeping on typing a 
+lot of words to show this is a paragraph. </p>
+<p>This is a paragraph. Because I have no imagination I'll keeping on typing a 
+lot of words to show this is a paragraph. </p>
+
+<!-- img for images: scr attribute to point to the image, alt is the text to be displayed instead of the image, height to be adjust the height of the image (pixels), width to adjust the width of the image --> 
+<img src= "personal image.jpg" height = "500"> 
+<!-- unordered list, type bullet --> 
+<ul type="disc"> 
+	<li> My Candy </li><!-- li(list element) for element on the list -->
+    <li> your candy </li>
+    <li> our candy </li>
+ </ul>
+<!-- unordered list type square --> 
+<ul type="square"> 
+	<li> My Candy </li><!-- li (list element) for element on the list -->
+    <li> your candy </li>
+	<li> our candy </li> 
+</ul> 
+<!-- unordered list type circle --> 
+<ul type="circle"> 
+	<li> My Candy </li><!-- li (list element) for element on the list -->
+    <li> your candy </li>
+	<li> our candy </li>
+</ul> 
+<!-- ordered list type "1" uses numbers --> 
+<ol type = "1"> 
+	<li> First class </li> 
+	<li> second class </li>
+	<li> third class </li>
+</ol>
+<!-- ordered list type "A" uses letters --> 
+<ol type = "A"> 
+	<li> First class </li> 
+	<li> second class </li>
+	<li> third class </li>
+	<li> fourth class </li>
+</ol>
+<!-- ordered list type "a" uses lowercase letters --> 
+<ol type = "a"> 
+	<li> First class </li> 
+	<li> second class </li>
+	<li> third class </li>
+	<li> fourth class </li>
+</ol>
+<!-- ordered list, type "I" uses captial roman numerals --> 
+<ol type = "I"> 
+	<li> First class </li> 
+	<li> second class </li>
+	<li> third class </li>
+</ol>
+<!-- ordered list type "i" --> 
+<ol type = "i"> 
+	<li> First class </li> 
+	<li> second class </li>
+	<li> third class </li>
+</ol>
+<ol type="A">
+	<li> CS class
+		<ol>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>js</li>
+		</ol>
+    </li>
+    <li>MATH</li>
+ <ol>
+ <!-- a is a anchor (  hyperlinks) --> 
+ <a href= "https://youtube.com"> YouTube </a> <!-- absoulte hyperlink -->
+ <br><!-- line break -->
+ <a href= "cheat-sheet.html"> My cheat sheet </a> <!-- relative hyperlink -->
+
+<!-- div is to indicate an are within the web page -->
+<div>
+	<p> another paragraph  </p>
+	<ol type="A">
+	<li> CS class
+		<ol>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>js</li>
+		</ol>
+    </li>
+    <li>math class</li>
+  </ol>
+</div>
+</body><!-- ending of body section --> 
+</html> <!-- end of html document --> 

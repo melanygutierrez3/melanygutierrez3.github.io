@@ -1,0 +1,37 @@
+body {
+	background-color: lightgreen: 
+}
+
+#stoplight {
+        width: 20%;
+        border: 5px solid black;
+
+}
+
+
+
+.circle {
+	    width: 75px;
+	    height: 75px;
+	    border:solid 2px black;
+	    margin: 20px auto;
+}
+
+#red {
+	   background-color: red;
+}
+
+#yellow {
+	    background-color: yellow;
+}
+
+#post {
+	    width: 5%;
+	    height: 100px;
+	    background-color: black;
+	    margin: auto;
+}
+
+h1 {
+	    text-align: center;
+}

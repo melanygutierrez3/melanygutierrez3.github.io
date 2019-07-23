@@ -1,0 +1,26 @@
+/*main.css*/
+
+body {
+	background-color:pink;
+	font-family: 'Pathway Gothic One';
+}
+
+h1 {
+	color:black;
+}
+
+ol{
+	font-weight: bold;
+}
+
+a {
+	color:black; 
+	text-decoration: none;
+} 
+
+#my_nav_bar{
+	border-style:double;
+	border-color:gold;
+	background-color:white;
+}
+
