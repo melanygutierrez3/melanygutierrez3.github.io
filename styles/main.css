@@ -24,3 +24,26 @@ a {
 	background-color:white;
 }
 
+#my_list{
+	float: left;
+	margin: 20px;
+	width: 300px;
+}
+
+#img-float{
+	float: left;
+	margin: 20px;
+	width: 300px;
+}
+
+.p-class{
+	margin: 35px;
+	padding: 25px;
+}
+
+#div-float{
+	overflow: auto;
+	background:solid 5px green;
+	background: white;
+	margin: 20px;
+}
